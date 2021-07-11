@@ -1,10 +1,15 @@
-package com.fileIO;
+package com.javacode.fileIO;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/*
+ *   WAP to perform duplicate from the given input file
+ *   Output file is dublicateEliminator.txt
+ * 
+ */
 public class DublicateEliminator {
 	
 	public static void main(String[] args) throws IOException {

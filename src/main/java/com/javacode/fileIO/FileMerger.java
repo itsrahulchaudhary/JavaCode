@@ -1,4 +1,4 @@
-package com.fileIO;
+package com.javacode.fileIO;
 
 import java.io.BufferedReader;
  

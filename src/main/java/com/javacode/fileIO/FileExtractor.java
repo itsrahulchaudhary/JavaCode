@@ -1,10 +1,15 @@
-package com.fileIO;
+package com.javacode.fileIO;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/*
+ *   WAP to perform file extraction operation.
+ *   Output file is fileExtractor.txt
+ * 
+ */
 public class FileExtractor {
 	
 	public static void main(String[] args) throws IOException {

@@ -1,17 +1,12 @@
-package com.fileIO;
+package com.javacode.fileIO;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Test {
+public class BufferWriter1 {
 	public static void main(String[] args) throws IOException {
-		/*
-		 * File f = new File("zzzz.txt"); f.createNewFile();
-		 * System.out.println(f.exists());
-		 */
-		FileWriter fw = new FileWriter("fileIONote.txt");
+		FileWriter fw = new FileWriter("bufferWriter.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
 		bw.write(114);
 		bw.write("ahul\nChadhary");
